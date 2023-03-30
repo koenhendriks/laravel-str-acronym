@@ -1,0 +1,43 @@
+{
+    "name": "koenhendriks/laravel-str-acronym",
+    "description": "A package to be able to generate acronyms from strings in Laravel projects using the Str helper and supports the Stringable class.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "koenhendriks",
+        "laravel",
+        "acronym",
+        "str-acronym",
+        "laravel-str-acronym"
+    ],
+    "homepage": "https://github.com/koenhendriks/laravel-str-acronym",
+    "autoload": {
+        "psr-4": {
+            "KoenHendriks\\StrAcronym\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Koen Hendriks",
+            "email": "info@koenhendriks.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^10.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KoenHendriks\\StrAcronym\\StrServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.1",
+        "phpunit/phpunit": "^10.0"
+    }
+}
