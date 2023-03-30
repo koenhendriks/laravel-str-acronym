@@ -19,7 +19,9 @@ class StrServiceProvider extends ServiceProvider
 
             $acronym = '';
             foreach (preg_split('/[^a-zA-Z]+/', $string) as $word) {
-                $acronym .= $word[0] . $delimiter;
+                if(!empty($word)){
+                    $acronym .= $word[0] . $delimiter;
+                }
             }
 
             return $acronym;
