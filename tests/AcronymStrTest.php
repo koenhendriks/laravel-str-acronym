@@ -21,6 +21,7 @@ class AcronymStrTest extends TestCase
         $this->assertSame('ts', Str::acronym('trailing spaces   '));
         $this->assertSame('ty', Str::acronym('the year 2013'));
         $this->assertSame('lpf', Str::acronym("laravel\t\tphp\n\nframework"));
+        $this->assertSame('ÉL', Str::acronym("Érico Leitão"));
         $this->assertSame('HW', (string) Str::of('hello world')->headline()->acronym());
     }
 }
