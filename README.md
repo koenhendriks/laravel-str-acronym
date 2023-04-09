@@ -63,6 +63,9 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 ## Credits
 
 - [Koen Hendriks](https://github.com/koenhendriks)
+
+### Contributors
+- [Corné Dorrestijn](https://github.com/cornedor)
 - [All Contributors](../../contributors)
 
 
