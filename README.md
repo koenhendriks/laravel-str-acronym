@@ -1,8 +1,4 @@
-# Laravel Acronym Package
-
-This package provides a macro for generating acronyms from strings in Laravel projects using the `Str` helper and supports the `Stringable` class.
-
-It originates from [this Pull Request](https://github.com/laravel/framework/pull/46615)
+![social.png](social.png)
 
 ## Installation
 
@@ -61,7 +57,7 @@ composer test
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
 ## Credits
-
+This package originates from [this Pull Request](https://github.com/laravel/framework/pull/46615) on the Laravel Framework
 - [Koen Hendriks](https://github.com/koenhendriks)
 - [All Contributors](../../contributors)
 
