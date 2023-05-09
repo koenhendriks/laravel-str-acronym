@@ -18,9 +18,10 @@ class StrServiceProvider extends ServiceProvider
             }
 
             $acronym = '';
-            foreach (preg_split('/[^a-zA-Z]+/', $string) as $word) {
+            foreach (preg_split('/[^\p{L}]+/u', $string) as $word) {
                 if(!empty($word)){
-                    $acronym .= $word[0] . $delimiter;
+                    $first_letter = mb_substr($word, 0, 1);
+                    $acronym .= $first_letter . $delimiter;
                 }
             }
 

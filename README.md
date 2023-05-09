@@ -59,6 +59,9 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 ## Credits
 This package originates from [this Pull Request](https://github.com/laravel/framework/pull/46615) on the Laravel Framework
 - [Koen Hendriks](https://github.com/koenhendriks)
+
+### Contributors
+- [Corné Dorrestijn](https://github.com/cornedor)
 - [All Contributors](../../contributors)
 
 
