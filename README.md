@@ -4,7 +4,9 @@
 
 You can install the package using Composer:
 
-`composer require koenhendriks/laravel-str-acronym`
+```
+composer require koenhendriks/laravel-str-acronym
+```
 
 After installing the package Laravel should automatically discover the package. 
 
