@@ -2,10 +2,10 @@
 
 All notable changes to `LaravelStrAcronym` will be documented in this file.
 
-### 1.0.4 - 2025-05-16
+### 1.1.0 - 2025-05-16
 
 ### Added
-- Support for 12.x
+- Support for 12.x (See [#13](https://github.com/koenhendriks/laravel-str-acronym/pull/13))
 
 ### Removed
 
