@@ -24,7 +24,7 @@
         }
     ],
     "require": {
-        "illuminate/support": "^11.0|^12.0"
+        "illuminate/support": "^12.0|^13.0"
     },
     "extra": {
         "laravel": {
@@ -37,7 +37,7 @@
         "test": "./vendor/bin/phpunit"
     },
     "require-dev": {
-        "orchestra/testbench": "^9.0",
-        "phpunit/phpunit": "^11.5.3"
+        "orchestra/testbench": "^10.0|^11.0",
+        "phpunit/phpunit": "^11.5.3|^12.5.12"
     }
 }
